@@ -24,7 +24,7 @@ record Person (
     void trace() => Console.WriteLine("Done");
     trace();
 
-    var thomas = new Person("Thomas", 36);    
+//not nedded 
 
     var outer = () => {
       var ( name, age, _ ) = thomas;
