@@ -1,7 +1,7 @@
 ﻿var app = new App();
 await app.Run();
 
-// * CSharp
+// hi
 record Person (
   string Name,
   int Age,
